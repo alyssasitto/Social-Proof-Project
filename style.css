@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+	--dark-magenta: hsl(300, 43%, 22%);
+	--soft-pink: hsl(333, 80%, 67%);
+	--gray-magenta: hsl(303, 10%, 53%);
+	--light-gray-magenta: hsl(300, 24%, 96%);
+	--white: hsl(0, 0%, 100%);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.5rem;
+	font-family: "Poppins", sans-serif;
+	/* text-align: center; */
+}
+
+.container {
+	padding: 4.2em 1.5em;
+}
+
+.heading {
+	text-align: center;
+}
+
+.heading-title {
+	padding: 0 1em;
+	margin-bottom: 0.8em;
+	font-size: 3.3rem;
+	font-weight: 600;
+	color: var(--dark-magenta);
+	line-height: 0.9;
+}
+
+.heading-description {
+	margin-bottom: 2.5em;
+	color: #878686;
+	line-height: 1.6;
+}
+
+.rated-container {
+	margin-bottom: 3em;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 1.1em;
+}
+
+.star-review-block {
+	padding: 0.9em 0;
+	border-radius: 10px;
+	background-color: var(--light-gray-magenta);
+}
+
+.stars {
+	display: flex;
+	justify-content: center;
+	gap: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.rated-description {
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: var(--dark-magenta);
+}
+
+.user-reviews {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+.user {
+	padding: 2em 2em;
+	color: var(--white);
+	background-color: var(--dark-magenta);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.user-details {
+	margin-bottom: 1.3em;
+	display: flex;
+	align-items: center;
+	gap: 1.2em;
+}
+
+.user-photo {
+	height: 40px;
+	width: 40px;
+	border-radius: 100px;
+}
+
+.user-verified {
+	color: var(--soft-pink);
+	font-weight: 300;
+}
+
+.user-testimony {
+	font-size: 1.4rem;
+	line-height: 1.5;
+}
