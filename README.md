@@ -9,7 +9,7 @@
 
 ### Screenshot
 
-![](/images/social-proof-screenshot.png)
+![](/images/socialproof-sc.png)
 
 ### Links
 

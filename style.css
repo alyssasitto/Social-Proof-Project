@@ -116,7 +116,7 @@ header {
 }
 
 .user p:first-child {
-	font-weight: bold;
+	font-weight: 500;
 }
 
 .user p:last-child {
@@ -130,6 +130,7 @@ header {
 
 @media (min-width: 1440px) {
 	body {
+		height: 100vh;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -138,10 +139,11 @@ header {
 		background-position: top left, bottom right;
 		background-repeat: no-repeat, no-repeat;
 		background-size: auto, auto;
+		overflow-y: hidden;
 	}
 
 	.container {
-		padding: 10rem;
+		padding: 10rem 15rem;
 		display: grid;
 		grid-template-columns: 2fr 1.5fr;
 		row-gap: 5rem;
@@ -158,13 +160,13 @@ header {
 	}
 
 	.heading-title {
-		font-size: 5rem;
+		font-size: 4.5rem;
 		padding-left: 0;
 		padding-right: 20rem;
 	}
 
 	.heading-description {
-		font-size: 2rem;
+		font-size: 1.9rem;
 	}
 
 	.rated-container {
@@ -177,7 +179,7 @@ header {
 		flex-direction: row;
 		padding: 2rem;
 		gap: 2rem;
-		width: 80%;
+		width: 85%;
 	}
 
 	.user-container {
@@ -188,7 +190,7 @@ header {
 
 	.user-block {
 		height: 90%;
-		padding: 6rem 4.1rem;
+		padding: 6rem 2.5rem;
 	}
 
 	.block-1 {

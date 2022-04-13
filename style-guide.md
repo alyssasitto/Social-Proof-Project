@@ -25,8 +25,3 @@ White: hsl(0, 0%, 100%)
 ### Body Copy
 
 - Font size: 15px
-
-### Font
-
-- Family: [Spartan](https://fonts.google.com/specimen/Spartan)
-- Weights: 400, 500, 700
