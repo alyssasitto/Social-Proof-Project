@@ -30,5 +30,5 @@ I learned more about using grid and responsive web design.
 
 ## Author
 
-- Website - [Alyssa Sitto](https://www.your-site.com)
-- Frontend Mentor - [@alyssasitto](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Alyssa Sitto](https://social-proof-81e064.netlify.app/)
+- Frontend Mentor - [@alyssasitto](https://www.frontendmentor.io/profile/alyssasitto)
